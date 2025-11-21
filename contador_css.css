@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+    margin: 10px auto;
+    background-color: bisque;
+}
+.contador{
+    margin: 10px;
+    padding-bottom: 10px;
+    width: 60px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: rgb(47, 95, 128);
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.contador:hover{
+    background-color: aqua;
+}
+.titulo{
+    font-size: 85px;
+    margin: 0px 200px;
+    margin-bottom: 10px;
+    color: black;
+    background: linear-gradient( rgb(238, 182, 224), rgb(144, 190, 221));
+    border: double black 10px;
+}
+.text{
+    font-size: 75px;
+    margin-bottom: 10px;
+    font-family: cursive;
+}
+.nombre{
+    background: linear-gradient(rgb(226, 228, 128), rgb(214, 135, 135));
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px;
+    border: dashed black 5px;
+    margin: 0px 400px;
+}
